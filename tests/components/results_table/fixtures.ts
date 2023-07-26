@@ -9,7 +9,5 @@ export const mockHeaderInfo = {
   sampleRate: 16000,
   byteRate: 32000,
   blockAlign: 2,
-  bitsPerSample: 16,
-  subchunk2ID: 'data',
-  subchunk2Size: 4,
-};
+  bitsPerSample: 16
+}
