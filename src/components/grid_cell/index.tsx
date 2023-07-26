@@ -1,21 +1,22 @@
 export default function GridCell({
   children,
-  heading,
+  heading
 }: {
-  children: React.ReactNode;
-  heading: boolean;
+  children: React.ReactNode
+  heading: boolean
 }) {
   return (
     <div
       className={
-        'text-white p-2 text-xs ' + (heading ? 'bg-tertiary' : 'bg-primary')
+        'p-2 text-xs uppercase text-white ' +
+        (heading ? 'bg-tertiary' : 'bg-primary')
       }
     >
       {children}
     </div>
-  );
+  )
 }
 
 GridCell.defaultProps = {
-  heading: false,
-};
+  heading: false
+}
